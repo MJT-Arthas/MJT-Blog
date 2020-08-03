@@ -64,7 +64,9 @@
         >
       </li>
       <li>
-        <a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a>
+        <a href="https://www.mjtweb.xyz/react/" target="_blank" rel="noopener"
+          >News</a
+        >
       </li>
     </ul>
     <h3>Ecosystem</h3>
@@ -106,8 +108,8 @@
 export default {
   name: "HelloWorld",
   props: {
-    msg: String
-  }
+    msg: String,
+  },
 };
 </script>
 
