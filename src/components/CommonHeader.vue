@@ -28,13 +28,13 @@
               ></el-menu-item
             >
             <el-menu-item index="3"
-              ><router-link to="/categories"
-                ><i class="iconfont icon-tubiao13"></i>Categories</router-link
+              ><router-link to="/collections"
+                ><i class="iconfont icon-tubiao13"></i>Collections</router-link
               ></el-menu-item
             >
             <el-menu-item index="4"
-              ><router-link to="/collections"
-                ><i class="iconfont icon-shoucang"></i>Collections</router-link
+              ><router-link to="/photo"
+                ><i class="iconfont icon-shoucang"></i>Photo</router-link
               ></el-menu-item
             >
             <el-menu-item index="5"

@@ -1,5 +1,6 @@
 <template>
   <div class="demoWrapper">
+    <H1 class="title">每日两报</H1>
     <el-input placeholder="请输入账号" v-model="us"></el-input>
     <el-input placeholder="请输入密码" v-model="ps" show-password></el-input>
     <div class="radio">
@@ -64,6 +65,10 @@ export default {
   height: 63vh;
   margin: 0 auto;
   padding-top: 50px;
+  .title {
+    margin-top: -30px;
+    margin-bottom: 20px;
+  }
   .reportBtn {
     width: 300px;
   }

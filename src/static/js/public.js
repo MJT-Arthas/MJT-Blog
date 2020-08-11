@@ -18,7 +18,7 @@ export const anchor = {
             let anchor = document.getElementById(id);
             let go = anchor.offsetTop;
 
-            // console.log(go)
+            console.log(go)
             Math.animation(document.documentElement.scrollTop, go, 800, 'Quart.easeOut', function (value) {
                 document.documentElement.scrollTop = value;
             });

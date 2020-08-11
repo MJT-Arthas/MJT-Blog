@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <CommonHeader />
+    <CommonHeader class="CommonHeader" />
+    <div class="topbar"></div>
     <!-- <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
@@ -26,7 +27,18 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+
   color: #2c3e50;
+  .CommonHeader {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+  }
+
+  .topbar {
+    width: 100%;
+    height: 80px;
+  }
   a {
     text-decoration: none;
     /* color: #909399; */

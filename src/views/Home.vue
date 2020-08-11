@@ -21,7 +21,7 @@ export default {
   padding: 0;
 }
 .home {
-  height: 70vh;
+  min-height: 100%;
 }
 .clearfix {
   *zoom: 1;
